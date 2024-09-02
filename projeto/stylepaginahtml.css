@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+.apresentacao{
+    height: 1%;
+    margin: 30% 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    overflow: auto;
+}
+body{
+    background-color: #000000;
+    color: #F6F6F6;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden; 
+    height: auto;
+    overflow: auto;
+}
+.Introdução{
+    font-size: 35px;
+    font-family: "Krona One", sans-serif;
+    color: #22D4FD;
+}
+.Introdução__texto{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+section{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    overflow: auto;
+}
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px #ddd;
+    border-radius: 5px;
+    overflow-x: auto;
+    color: #000000;
+}
+code {
+    display: block;
+    
+}
+
+.linktag{
+    background-color: #22D4FD;
+    width: 600px;
+    text-align: center;
+    border-radius: 70px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    
+}
